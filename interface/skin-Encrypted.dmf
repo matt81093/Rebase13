@@ -1,0 +1,1497 @@
+macro "hotkeymode"
+	elem 
+		name = "TAB"
+		command = ".Toggle-hotkey-mode"
+		is-disabled = false
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+		is-disabled = false
+	elem 
+		name = "NORTHEAST"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHEAST"
+		command = ".southeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHWEST"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "NORTHWEST"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "CTRL+WEST"
+		command = "westface"
+		is-disabled = false
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "CTRL+NORTH"
+		command = "northface"
+		is-disabled = false
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "EAST"
+		command = "eastface"
+		is-disabled = false
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "CTRL+SOUTH"
+		command = "southface"
+		is-disabled = false
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "INSERT"
+		command = "a-intent right"
+		is-disabled = false
+	elem 
+		name = "DELETE"
+		command = "delete-key-pressed"
+		is-disabled = false
+	elem 
+		name = "1"
+		command = "a-intent help"
+		is-disabled = false
+	elem 
+		name = "CTRL+1"
+		command = "a-intent help"
+		is-disabled = false
+	elem 
+		name = "2"
+		command = "a-intent disarm"
+		is-disabled = false
+	elem 
+		name = "CTRL+2"
+		command = "a-intent disarm"
+		is-disabled = false
+	elem 
+		name = "3"
+		command = "a-intent grab"
+		is-disabled = false
+	elem 
+		name = "CTRL+3"
+		command = "a-intent grab"
+		is-disabled = false
+	elem 
+		name = "4"
+		command = "a-intent harm"
+		is-disabled = false
+	elem 
+		name = "CTRL+4"
+		command = "a-intent harm"
+		is-disabled = false
+	elem 
+		name = "5"
+		command = ".me"
+		is-disabled = false
+	elem 
+		name = "A+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "CTRL+A+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "D+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "CTRL+D+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "E"
+		command = "quick-equip"
+		is-disabled = false
+	elem 
+		name = "CTRL+E"
+		command = "quick-equip"
+		is-disabled = false
+	elem 
+		name = "F"
+		command = "a-intent left"
+		is-disabled = false
+	elem 
+		name = "CTRL+F"
+		command = "a-intent left"
+		is-disabled = false
+	elem 
+		name = "G"
+		command = "a-intent right"
+		is-disabled = false
+	elem 
+		name = "CTRL+G"
+		command = "a-intent right"
+		is-disabled = false
+	elem 
+		name = "H"
+		command = ".holster"
+		is-disabled = false
+	elem 
+		name = "CTRL+H"
+		command = ".holster"
+		is-disabled = false
+	elem 
+		name = "Q"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "CTRL+Q"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "R"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "CTRL+R"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "S+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "CTRL+S+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "T"
+		command = ".say"
+		is-disabled = false
+	elem 
+		name = "W+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "CTRL+W+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "X"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "CTRL+X"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "Y"
+		command = "Activate-Held-Object"
+		is-disabled = false
+	elem 
+		name = "CTRL+Y"
+		command = "Activate-Held-Object"
+		is-disabled = false
+	elem 
+		name = "Z"
+		command = "Activate-Held-Object"
+		is-disabled = false
+	elem 
+		name = "CTRL+Z"
+		command = "Activate-Held-Object"
+		is-disabled = false
+	elem 
+		name = "F1"
+		command = "adminhelp"
+		is-disabled = false
+	elem 
+		name = "CTRL+SHIFT+F1"
+		command = ".options"
+		is-disabled = false
+	elem 
+		name = "F2"
+		command = "ooc"
+		is-disabled = false
+	elem 
+		name = "F2+REP"
+		command = ".screenshot auto"
+		is-disabled = false
+	elem 
+		name = "SHIFT+F2+REP"
+		command = ".screenshot"
+		is-disabled = false
+	elem 
+		name = "F3"
+		command = ".say"
+		is-disabled = false
+	elem 
+		name = "F4"
+		command = ".me"
+		is-disabled = false
+	elem 
+		name = "F5"
+		command = "asay"
+		is-disabled = false
+	elem 
+		name = "F6"
+		command = "Player-Panel-New"
+		is-disabled = false
+	elem 
+		name = "F7"
+		command = "Admin-PM"
+		is-disabled = false
+	elem 
+		name = "F8"
+		command = "Invisimin"
+		is-disabled = false
+	elem 
+		name = "F12"
+		command = "F12"
+		is-disabled = false
+
+macro "macro"
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+		is-disabled = false
+	elem 
+		name = "NORTHEAST+REP"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHEAST+REP"
+		command = ".southeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHWEST+REP"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "NORTHWEST+REP"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "&File"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Quick screenshot\tF2"
+		command = ".screenshot auto"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Save screenshot as...\tShift+F2"
+		command = ".screenshot"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Icons"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "stretch"
+		name = "&Stretch to fit"
+		command = ".winset \"mapwindow.map.icon-size=0\""
+		category = "&Icons"
+		is-checked = true
+		can-check = true
+		group = "size"
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "icon64"
+		name = "&64x64 (2x)"
+		command = ".winset \"mapwindow.map.icon-size=64\""
+		category = "&Icons"
+		is-checked = false
+		can-check = true
+		group = "size"
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "icon32"
+		name = "&32x32"
+		command = ".winset \"mapwindow.map.icon-size=32\""
+		category = "&Icons"
+		is-checked = false
+		can-check = true
+		group = "size"
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "textmode"
+		name = "&Text"
+		command = ".winset \"menu.textmode.is-checked=true?mapwindow.map.text-mode=true:mapwindow.map.text-mode=false\""
+		category = "&Icons"
+		is-checked = false
+		can-check = true
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "playermenu"
+		name = "&Player"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Home"
+		command = "home"
+		category = "&Player"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Who's Online"
+		command = "who"
+		category = "&Player"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem "admin_menu"
+		name = "&Admin"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = true
+		saved-params = "is-checked"
+	elem 
+		name = "&Admin Panel"
+		command = "openpanel"
+		category = "&Admin"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Help"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "ExCode Reference"
+		command = "reference"
+		category = "&Help"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Admin help\tF1"
+		command = "adminhelp"
+		category = "&Help"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Hotkeys"
+		command = "hotkeys-help"
+		category = "&Help"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Commands"
+		command = ""
+		category = "&Help"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "Encrypted-admin"
+	elem "Encrypted-admin"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Players"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "player_grid"
+		type = GRID
+		pos = 0,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		cells = 1x0
+		current-cell = 1,1
+		show-lines = both
+		small-icons = false
+		show-names = true
+		enable-http-images = false
+		link-color = #0000ff
+		visited-color = #ff00ff
+		line-color = #c0c0c0
+		highlight-color = #000000
+		style = ""
+		is-list = true
+
+window "Encrypted-admin_panel"
+	elem "Encrypted-admin_panel"
+		type = MAIN
+		pos = 281,0
+		size = 296x318
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = false
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Admin Panel"
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = false
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "admin_tabs"
+		type = TAB
+		pos = 0,0
+		size = 296x318
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		tabs = "admin, operator"
+		current-tab = "admin"
+		multi-line = false
+		on-tab = ""
+
+window "Encrypted-default"
+	elem "Encrypted-default"
+		type = MAIN
+		pos = 281,0
+		size = 1196x670
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #000000
+		is-visible = false
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Encrypted"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 247
+		macro = "macro"
+		menu = "menu"
+		on-close = ""
+	elem "input1"
+		type = INPUT
+		pos = 304,612
+		size = 731x24
+		anchor1 = 0,100
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #0a0a0a
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		command = "say"
+		multi-line = false
+		is-password = false
+		no-command = false
+	elem "output1"
+		type = OUTPUT
+		pos = 304,500
+		size = 730x112
+		anchor1 = 0,100
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #1e1e1e
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+	elem "inventory"
+		type = GRID
+		pos = 161,500
+		size = 144x136
+		anchor1 = 0,100
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #1b1b1b
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = line
+		drop-zone = true
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		cells = 1x0
+		current-cell = 1,1
+		show-lines = both
+		small-icons = false
+		show-names = true
+		enable-http-images = false
+		link-color = #0000ff
+		visited-color = #ff00ff
+		line-color = #c0c0c0
+		highlight-color = #000000
+		style = ""
+		is-list = true
+	elem "map1"
+		type = MAP
+		pos = 161,3
+		size = 874x497
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		on-size = ""
+		icon-size = 0
+		text-mode = false
+		letterbox = true
+		zoom = 0
+		on-show = ""
+		on-hide = ""
+		style = ""
+
+window "Encrypted-desktop"
+	elem "Encrypted-desktop"
+		type = MAIN
+		pos = 281,0
+		size = 373x366
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Desktop"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "desktop_output"
+		type = OUTPUT
+		pos = 0,0
+		size = 373x366
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #005b00
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+
+window "Encrypted-laptop"
+	elem "Encrypted-laptop"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Laptop"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "laptop_output"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #005b00
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+
+window "Encrypted-operator"
+	elem "Encrypted-operator"
+		type = MAIN
+		pos = 281,0
+		size = 296x318
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Operator"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "admingps"
+		type = BUTTON
+		pos = 96,120
+		size = 96x24
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Admin GPS"
+		image = ""
+		command = "admingps"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "btn_emailg"
+		type = BUTTON
+		pos = 152,184
+		size = 96x32
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Email CapitaineGaldor"
+		image = ""
+		command = "emaildevg"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "btn_pageg"
+		type = BUTTON
+		pos = 48,184
+		size = 96x32
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Page CapitaineGaldor"
+		image = ""
+		command = "pagedevg"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "btn_email"
+		type = BUTTON
+		pos = 152,156
+		size = 100x20
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Email Lcooper"
+		image = ""
+		command = "emailmaker"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "btn_page"
+		type = BUTTON
+		pos = 48,156
+		size = 100x20
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Page Lcooper"
+		image = ""
+		command = "pagemaker"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "button1"
+		type = BUTTON
+		pos = 150,92
+		size = 100x20
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Cancel Shutdown"
+		image = ""
+		command = "cancelshutdown"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "btn_shutdown"
+		type = BUTTON
+		pos = 46,92
+		size = 100x20
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Shutdown Server"
+		image = ""
+		command = "shutdownworld"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "btn_cancelreboot"
+		type = BUTTON
+		pos = 150,68
+		size = 100x20
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Cancel Reboot"
+		image = ""
+		command = "cancelreboot"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "btn_reboot"
+		type = BUTTON
+		pos = 46,68
+		size = 100x20
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Reboot Server"
+		image = ""
+		command = "rebootworld"
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+
+window "Encrypted-robot"
+	elem "Encrypted-robot"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Robot"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "robot_output"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #005b00
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+
+window "Encrypted-terminal"
+	elem "Encrypted-terminal"
+		type = MAIN
+		pos = 281,0
+		size = 352x366
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #000000
+		is-visible = false
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Computer Terminal"
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "button3"
+		type = BUTTON
+		pos = 290,346
+		size = 60x20
+		anchor1 = 100,100
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Dock"
+		image = ""
+		command = ""
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "button2"
+		type = BUTTON
+		pos = 226,346
+		size = 60x20
+		anchor1 = 100,100
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = "is-checked"
+		on-size = ""
+		text = "Mass Add"
+		image = ""
+		command = ""
+		is-flat = false
+		stretch = false
+		is-checked = false
+		group = ""
+		button-type = pushbutton
+	elem "tab1"
+		type = TAB
+		pos = 0,0
+		size = 350x342
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #005b00
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		tabs = ""
+		current-tab = "desktop"
+		multi-line = true
+		on-tab = ""
+	elem "input2"
+		type = INPUT
+		pos = 0,346
+		size = 222x20
+		anchor1 = 0,100
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #005b00
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		command = "command"
+		multi-line = false
+		is-password = false
+		no-command = false
+
+window "excode_reference"
+	elem "excode_reference"
+		type = MAIN
+		pos = 281,0
+		size = 841x481
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = false
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "ExCode Reference"
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "excode_links"
+		type = GRID
+		pos = 8,8
+		size = 184x464
+		anchor1 = 0,0
+		anchor2 = 0,100
+		font-family = ""
+		font-size = 12
+		font-style = "bold"
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		cells = 1x0
+		current-cell = 1,1
+		show-lines = horizontal
+		small-icons = false
+		show-names = true
+		enable-http-images = false
+		link-color = #0000ff
+		visited-color = #0000ff
+		line-color = #c0c0c0
+		highlight-color = #000000
+		style = ""
+		is-list = true
+	elem "excode_browser"
+		type = BROWSER
+		pos = 208,8
+		size = 624x464
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		show-history = false
+		show-url = false
+		auto-format = true
+		use-title = false
+		on-show = ""
+		on-hide = ""
+
